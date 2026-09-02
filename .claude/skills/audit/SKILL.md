@@ -529,7 +529,7 @@ Done 13 Aug. Root layout was pointing every page at the homepage.
 **Every run also writes one self-contained HTML page, in the Automatable design theme, and opens it.** The markdown checklist is the working file; the HTML is the thing you show - on a call, on a screen recording, or to a prospect. Same data, before → after, no jargon.
 
 **How it is built - never hand-write the HTML:**
-1. Copy `references/audit-report-template.html` to `audit-report.html` in the project root (WordPress lane: the project folder).
+1. Copy `code/audit-report-template.html` to `audit-report.html` in the project root (WordPress lane: the project folder).
 2. Replace ONLY the JSON inside `<script id="audit-data" type="application/json">` at the top of the file. Every field in the template's sample JSON is required; keep the same keys and shapes. Do not touch the markup, the CSS or the script below it.
 3. Open it: `open audit-report.html` (Mac). Say the path in chat so the owner can open it themselves.
 4. **Re-write the JSON after every fix pass** (step 5 of the loop) - `after`, `issuesAfter`, `passes`, `minutes`, each layer's `after` and `fixed` line, and each fix's `status` - then say "report refreshed" so the owner reloads and watches the dial climb. The HTML is regenerated in full each time; the markdown file keeps the history.

@@ -19,8 +19,8 @@ Connect Semrush (free tier is enough) to unlock the crawl, keywords and the riva
 
 ## Files
 
-- `.claude/commands/audit.md` - the `/audit` command
-- `references/` - the check lists it grades against and the report template
-- `code/check_page_similarity.py` - the doorway-page similarity checker
+- `.claude/skills/audit/SKILL.md` - the `/audit` command
+- `references/` - the check lists it grades against
+- `code/` - the report template and the doorway-page similarity checker
 
 Full blueprint, the fix + build + launch layer and the machines: skool.com/automatable-free
